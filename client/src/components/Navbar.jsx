@@ -29,8 +29,9 @@ const Navbar = () => {
 
     useEffect(() => {
 
-        if(location.pathname != '/'){
+        if(location.pathname !== '/'){
             setIsScrolled(true)
+            return;
         }else{
             setIsScrolled(false)
         }

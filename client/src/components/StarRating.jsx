@@ -2,7 +2,7 @@ import React from "react";
 import { assets } from "../assets/assets";
 
 // ratingnya diubah
-const StarRating = ({rating}) => {
+const StarRating = ({rating = 4}) => {
   return (
     <>
       {Array(5).fill(0).map((_, index) => (
