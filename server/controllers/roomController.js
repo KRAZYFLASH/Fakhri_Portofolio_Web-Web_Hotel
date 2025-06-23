@@ -1,5 +1,5 @@
-import Hotel from "../models/Hotel"
-import Room from "../models/Room"
+import Hotel from "../models/Hotel.js"
+import Room from "../models/Room.js"
 
 //  API to create a new room for a Hotel
 export const createRoom = async(req,res)=>{

@@ -20,7 +20,7 @@ const Testimonial = () => {
                         </div>
                         <div className="flex items-center gap-1 mt-4">
                           {/* ratingnya diubah */}
-                          <StarRating rating={4} />
+                          <StarRating rating={testimonial.rating} />
                         </div>
                         <p className="text-gray-500 max-w-90 mt-4">"{testimonial.review}"</p>
                     </div>
